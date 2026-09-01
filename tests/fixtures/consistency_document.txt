@@ -1,0 +1,9 @@
+# System Architecture Review
+
+John Smith authored the initial specification for the subsystem.
+Later, Jon Smith reviewed the front-end implementation details.
+The software team optimized the AI model to improve inference performance.
+Meanwhile, the artificial intelligence model requirements were updated.
+The milestone deadline is 12/04/2026, while the release date is 2026-04-12.
+There are 10 pages in the appendix and ten pages in the introduction.
+

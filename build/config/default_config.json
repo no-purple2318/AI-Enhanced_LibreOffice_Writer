@@ -1,0 +1,36 @@
+{
+    "aiProvider": "local",
+    "model": "rule-based-nlp-v1",
+    "analysisTimeout": 30,
+    "enableGrammar": true,
+    "enableSpelling": true,
+    "enableStyle": true,
+    "enableConsistency": true,
+    "enableFormatting": true,
+    "enableReadability": true,
+    "enablePrivacyDetection": true,
+    "privacyMode": true,
+    "qualityWeights": {
+        "writing": 0.25,
+        "consistency": 0.20,
+        "formatting": 0.20,
+        "readability": 0.20,
+        "privacy": 0.15
+    },
+    "severityDeductions": {
+        "critical": 20.0,
+        "high": 10.0,
+        "medium": 5.0,
+        "low": 2.0
+    },
+    "connection": {
+        "host": "localhost",
+        "port": 2002,
+        "pipeName": "uno_ai_pipe",
+        "connectionType": "socket"
+    },
+    "logging": {
+        "level": "INFO",
+        "sanitizeDocumentContent": true
+    }
+}
