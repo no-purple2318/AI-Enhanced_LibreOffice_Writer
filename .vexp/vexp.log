@@ -1,0 +1,45 @@
+
+--- vexp daemon start at 2026-09-10T19:18:55.434Z ---
+[2m2026-09-10T19:18:55.474855Z[0m [32m INFO[0m license: home_dir=/home/keerthinath (source=os)
+[2m2026-09-10T19:18:55.474901Z[0m [33m WARN[0m license: no valid JWT found, falling back to FREE plan (2000 nodes / 1 repo / 20 daily calls)
+[2m2026-09-10T19:18:55.476360Z[0m [32m INFO[0m Installed pre-commit hook
+[2m2026-09-10T19:18:55.477064Z[0m [32m INFO[0m Installed post-merge hook
+[2m2026-09-10T19:18:55.477108Z[0m [32m INFO[0m Installed post-checkout hook
+[2m2026-09-10T19:18:55.477187Z[0m [32m INFO[0m Created .vexp/.gitattributes
+[2m2026-09-10T19:18:55.477518Z[0m [32m INFO[0m vexp git hooks installed in /home/keerthinath/Documents/Projects/AI-Enhanced_LibreOffice_Writer
+[2m2026-09-10T19:18:55.480190Z[0m [32m INFO[0m Opening database at /home/keerthinath/Documents/Projects/AI-Enhanced_LibreOffice_Writer/.vexp/index.db
+[2m2026-09-10T19:18:55.537104Z[0m [32m INFO[0m SecurityFilter active — skipping built-in secret paths
+[2m2026-09-10T19:18:55.537327Z[0m [32m INFO[0m Socket server listening on /home/keerthinath/Documents/Projects/AI-Enhanced_LibreOffice_Writer/.vexp/daemon.sock
+[2m2026-09-10T19:18:55.538136Z[0m [32m INFO[0m No manifest, running full index
+[2m2026-09-10T19:18:55.538554Z[0m [32m INFO[0m Starting full index of /home/keerthinath/Documents/Projects/AI-Enhanced_LibreOffice_Writer
+[2m2026-09-10T19:18:55.551191Z[0m [32m INFO[0m Found 67 source files to index
+[2m2026-09-10T19:18:55.818802Z[0m [32m INFO[0m CallResolver: scanning 226 callable nodes (0 LSP edges pre-integrated; the VS Code bridge adds type-resolved edges incrementally as files are opened)
+[2m2026-09-10T19:18:55.835976Z[0m [32m INFO[0m CallResolver: created 323 CALLS edges
+[2m2026-09-10T19:18:55.849638Z[0m [32m INFO[0m Context lineage: 257 files analyzed in 9ms
+[2m2026-09-10T19:18:55.871323Z[0m [32m INFO[0m Context lineage: 257 files enriched
+[2m2026-09-10T19:18:55.874174Z[0m [32m INFO[0m Change coupling: analyzing 1 commits from git history
+[2m2026-09-10T19:18:55.874223Z[0m [32m INFO[0m Change coupling: 0 edges stored
+[2m2026-09-10T19:18:56.111183Z[0m [32m INFO[0m TF-IDF corpus: 354 documents, 2017 unique terms
+[2m2026-09-10T19:18:56.135023Z[0m [32m INFO[0m TF-IDF embeddings: 354 vectors stored
+[2m2026-09-10T19:18:56.145890Z[0m [32m INFO[0m Manifest written: 67 file hashes
+[2m2026-09-10T19:18:56.152506Z[0m [32m INFO[0m Full index complete: 67 files, 354 nodes, 905 edges in 596ms
+[2m2026-09-10T19:18:56.155481Z[0m [32m INFO[0m File watcher: monitorando /home/keerthinath/Documents/Projects/AI-Enhanced_LibreOffice_Writer (93 directories)
+[2m2026-09-10T19:18:56.155674Z[0m [32m INFO[0m LLM compression not configured — rule compressor active
+[2m2026-09-10T19:18:56.155680Z[0m [32m INFO[0m vexp-core daemon started (v3.1.3), watching for changes
+
+--- vexp daemon start at 2026-09-11T04:10:45.005Z ---
+[2m2026-09-11T04:10:45.088795Z[0m [32m INFO[0m license: home_dir=/home/keerthinath (source=os)
+[2m2026-09-11T04:10:45.088948Z[0m [33m WARN[0m license: no valid JWT found, falling back to FREE plan (2000 nodes / 1 repo / 20 daily calls)
+[2m2026-09-11T04:10:45.092951Z[0m [32m INFO[0m Updated vexp section in existing pre-commit hook
+[2m2026-09-11T04:10:45.093698Z[0m [32m INFO[0m Updated vexp section in existing post-merge hook
+[2m2026-09-11T04:10:45.094256Z[0m [32m INFO[0m Updated vexp section in existing post-checkout hook
+[2m2026-09-11T04:10:45.094398Z[0m [32m INFO[0m Created .vexp/.gitattributes
+[2m2026-09-11T04:10:45.094445Z[0m [32m INFO[0m vexp git hooks installed in /home/keerthinath/Documents/Projects/AI-Enhanced_LibreOffice_Writer
+[2m2026-09-11T04:10:45.096476Z[0m [32m INFO[0m Opening database at /home/keerthinath/Documents/Projects/AI-Enhanced_LibreOffice_Writer/.vexp/index.db
+[2m2026-09-11T04:10:45.134015Z[0m [32m INFO[0m SecurityFilter active — skipping built-in secret paths
+[2m2026-09-11T04:10:45.134452Z[0m [32m INFO[0m Socket server listening on /home/keerthinath/Documents/Projects/AI-Enhanced_LibreOffice_Writer/.vexp/daemon.sock
+[2m2026-09-11T04:10:45.135855Z[0m [32m INFO[0m Manifest found, running incremental sync
+[2m2026-09-11T04:10:45.137871Z[0m [32m INFO[0m Running checkout sync
+[2m2026-09-11T04:10:45.154149Z[0m [32m INFO[0m File watcher: monitorando /home/keerthinath/Documents/Projects/AI-Enhanced_LibreOffice_Writer (93 directories)
+[2m2026-09-11T04:10:45.154550Z[0m [32m INFO[0m LLM compression not configured — rule compressor active
+[2m2026-09-11T04:10:45.154566Z[0m [32m INFO[0m vexp-core daemon started (v3.1.3), watching for changes

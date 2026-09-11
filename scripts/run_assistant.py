@@ -33,9 +33,9 @@ def main():
         help="Analyze a local text or .odt sample file directly",
     )
     parser.add_argument(
-        "--gui",
+        "--no-gui",
         action="store_true",
-        help="Launch the Interactive Assistant Dashboard GUI",
+        help="Disable the Interactive Assistant Dashboard GUI (terminal output only)",
     )
     parser.add_argument(
         "--export-report",
@@ -112,12 +112,8 @@ Confidential SSN: 000-12-3456.
 
     result = controller.analyze(doc)
 
-    if args.gui:
-        logger.info("Opening Assistant Dashboard UI...")
-        dashboard_window = InteractiveDashboardWindow(controller, doc)
-        dashboard_window.launch()
-    else:
-        # Print summary to console
+    if args.no_gui:
+        # Print summary to console only
         summary = result.getSummary()
         qs = result.qualityScore
         print("\n" + "=" * 60)
@@ -135,6 +131,11 @@ Confidential SSN: 000-12-3456.
         for idx, s in enumerate(result.suggestions, 1):
             print(f"  [{idx}] [{s.severity.value:8}] {s.type.value:12} | {s.category:16} | {s.message}")
         print("=" * 60 + "\n")
+    else:
+        # Launch Interactive Dashboard GUI (default)
+        logger.info("Opening Assistant Dashboard UI...")
+        dashboard_window = InteractiveDashboardWindow(controller, doc)
+        dashboard_window.launch()
 
     if args.export_report:
         report = controller.generateReport(result)

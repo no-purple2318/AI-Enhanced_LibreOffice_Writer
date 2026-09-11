@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Database & local runtime files
+*.db
+*.sqlite3
+scratch/
+report_*.md
+report_*.html
+report_*.txt
+
+# IDE & editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
