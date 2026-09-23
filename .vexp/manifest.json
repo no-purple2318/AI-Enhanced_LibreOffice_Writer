@@ -68,8 +68,8 @@
     "tests/unit/test_sensitive_info_detector.py": "3550ef1018cac9cdaa0a68466c4f354779336313b8faaac9b6a31c3e8b329adf",
     "tests/unit/test_writing_assistant.py": "61316cc0ad59fd4ab37b5c7c441c80df68df7beb36320b9b62e95454fcf84d42"
   },
-  "indexed_at_commit": "4fae87a71aec0b0fbfa6ff64a77c385f48999284",
-  "indexed_at_timestamp": "2026-09-10T19:18:56.145728010+00:00",
+  "indexed_at_commit": "bda2c97d6cb343e1272a1ef29c1321bfec5031fa",
+  "indexed_at_timestamp": "2026-09-11T06:34:46.380399028+00:00",
   "languages": {
     "bash": {
       "calls": 0,

@@ -43,3 +43,73 @@
 [2m2026-09-11T04:10:45.154149Z[0m [32m INFO[0m File watcher: monitorando /home/keerthinath/Documents/Projects/AI-Enhanced_LibreOffice_Writer (93 directories)
 [2m2026-09-11T04:10:45.154550Z[0m [32m INFO[0m LLM compression not configured — rule compressor active
 [2m2026-09-11T04:10:45.154566Z[0m [32m INFO[0m vexp-core daemon started (v3.1.3), watching for changes
+
+--- vexp daemon start at 2026-09-12T04:39:30.860Z ---
+[2m2026-09-12T04:39:30.993256Z[0m [32m INFO[0m license: home_dir=/home/keerthinath (source=os)
+[2m2026-09-12T04:39:30.993351Z[0m [33m WARN[0m license: no valid JWT found, falling back to FREE plan (2000 nodes / 1 repo / 20 daily calls)
+[2m2026-09-12T04:39:31.001491Z[0m [32m INFO[0m Updated vexp section in existing pre-commit hook
+[2m2026-09-12T04:39:31.002451Z[0m [32m INFO[0m Updated vexp section in existing post-merge hook
+[2m2026-09-12T04:39:31.005309Z[0m [32m INFO[0m Updated vexp section in existing post-checkout hook
+[2m2026-09-12T04:39:31.005452Z[0m [32m INFO[0m Created .vexp/.gitattributes
+[2m2026-09-12T04:39:31.005636Z[0m [32m INFO[0m vexp git hooks installed in /home/keerthinath/Documents/Projects/AI-Enhanced_LibreOffice_Writer
+[2m2026-09-12T04:39:31.007556Z[0m [32m INFO[0m Opening database at /home/keerthinath/Documents/Projects/AI-Enhanced_LibreOffice_Writer/.vexp/index.db
+[2m2026-09-12T04:39:31.082063Z[0m [32m INFO[0m SecurityFilter active — skipping built-in secret paths
+[2m2026-09-12T04:39:31.082475Z[0m [32m INFO[0m Socket server listening on /home/keerthinath/Documents/Projects/AI-Enhanced_LibreOffice_Writer/.vexp/daemon.sock
+[2m2026-09-12T04:39:31.083995Z[0m [32m INFO[0m Manifest found, running incremental sync
+[2m2026-09-12T04:39:31.085050Z[0m [32m INFO[0m Running checkout sync
+[2m2026-09-12T04:39:31.120889Z[0m [32m INFO[0m File watcher: monitorando /home/keerthinath/Documents/Projects/AI-Enhanced_LibreOffice_Writer (93 directories)
+[2m2026-09-12T04:39:31.121228Z[0m [32m INFO[0m LLM compression not configured — rule compressor active
+[2m2026-09-12T04:39:31.121238Z[0m [32m INFO[0m vexp-core daemon started (v3.1.3), watching for changes
+[2m2026-09-12T04:41:06.562111Z[0m [32m INFO[0m Received SIGTERM, shutting down gracefully
+
+--- vexp daemon start at 2026-09-15T11:38:05.000Z ---
+[2m2026-09-15T11:38:05.110984Z[0m [32m INFO[0m license: home_dir=/home/keerthinath (source=os)
+[2m2026-09-15T11:38:05.111047Z[0m [33m WARN[0m license: no valid JWT found, falling back to FREE plan (2000 nodes / 1 repo / 20 daily calls)
+[2m2026-09-15T11:38:05.120688Z[0m [32m INFO[0m Updated vexp section in existing pre-commit hook
+[2m2026-09-15T11:38:05.122887Z[0m [32m INFO[0m Updated vexp section in existing post-merge hook
+[2m2026-09-15T11:38:05.123390Z[0m [32m INFO[0m Updated vexp section in existing post-checkout hook
+[2m2026-09-15T11:38:05.123628Z[0m [32m INFO[0m Created .vexp/.gitattributes
+[2m2026-09-15T11:38:05.123660Z[0m [32m INFO[0m vexp git hooks installed in /home/keerthinath/Documents/Projects/AI-Enhanced_LibreOffice_Writer
+[2m2026-09-15T11:38:05.126334Z[0m [32m INFO[0m Opening database at /home/keerthinath/Documents/Projects/AI-Enhanced_LibreOffice_Writer/.vexp/index.db
+[2m2026-09-15T11:38:05.205337Z[0m [32m INFO[0m SecurityFilter active — skipping built-in secret paths
+[2m2026-09-15T11:38:05.205843Z[0m [32m INFO[0m Socket server listening on /home/keerthinath/Documents/Projects/AI-Enhanced_LibreOffice_Writer/.vexp/daemon.sock
+[2m2026-09-15T11:38:05.210165Z[0m [32m INFO[0m Manifest found, running incremental sync
+[2m2026-09-15T11:38:05.213063Z[0m [32m INFO[0m Running checkout sync
+[2m2026-09-15T11:38:05.326163Z[0m [32m INFO[0m File watcher: monitorando /home/keerthinath/Documents/Projects/AI-Enhanced_LibreOffice_Writer (93 directories)
+[2m2026-09-15T11:38:05.326657Z[0m [32m INFO[0m LLM compression not configured — rule compressor active
+[2m2026-09-15T11:38:05.326669Z[0m [32m INFO[0m vexp-core daemon started (v3.1.3), watching for changes
+[2m2026-09-15T11:38:32.012100Z[0m [32m INFO[0m Received SIGTERM, shutting down gracefully
+
+--- vexp daemon start at 2026-09-23T16:28:01.780Z ---
+[2m2026-09-23T16:28:01.821781Z[0m [32m INFO[0m license: home_dir=/home/keerthinath (source=os)
+[2m2026-09-23T16:28:01.821827Z[0m [33m WARN[0m license: no valid JWT found, falling back to FREE plan (2000 nodes / 1 repo / 20 daily calls)
+[2m2026-09-23T16:28:01.825444Z[0m [32m INFO[0m Updated vexp section in existing pre-commit hook
+[2m2026-09-23T16:28:01.846059Z[0m [32m INFO[0m Updated vexp section in existing post-merge hook
+[2m2026-09-23T16:28:01.846788Z[0m [32m INFO[0m Updated vexp section in existing post-checkout hook
+[2m2026-09-23T16:28:01.846848Z[0m [32m INFO[0m Created .vexp/.gitattributes
+[2m2026-09-23T16:28:01.846864Z[0m [32m INFO[0m vexp git hooks installed in /home/keerthinath/Documents/Projects/AI-Enhanced_LibreOffice_Writer
+[2m2026-09-23T16:28:01.848930Z[0m [32m INFO[0m Opening database at /home/keerthinath/Documents/Projects/AI-Enhanced_LibreOffice_Writer/.vexp/index.db
+[2m2026-09-23T16:28:01.885229Z[0m [32m INFO[0m SecurityFilter active — skipping built-in secret paths
+[2m2026-09-23T16:28:01.885512Z[0m [32m INFO[0m Socket server listening on /home/keerthinath/Documents/Projects/AI-Enhanced_LibreOffice_Writer/.vexp/daemon.sock
+[2m2026-09-23T16:28:01.886402Z[0m [32m INFO[0m Manifest found, running incremental sync
+[2m2026-09-23T16:28:01.887045Z[0m [32m INFO[0m Running checkout sync
+[2m2026-09-23T16:28:01.896489Z[0m [32m INFO[0m File watcher: monitorando /home/keerthinath/Documents/Projects/AI-Enhanced_LibreOffice_Writer (93 directories)
+[2m2026-09-23T16:28:01.896849Z[0m [32m INFO[0m LLM compression not configured — rule compressor active
+[2m2026-09-23T16:28:01.896859Z[0m [32m INFO[0m vexp-core daemon started (v3.1.3), watching for changes
+
+--- vexp daemon start at 2026-09-23T16:33:55.797Z ---
+[2m2026-09-23T16:33:55.861465Z[0m [32m INFO[0m license: home_dir=/home/keerthinath (source=os)
+[2m2026-09-23T16:33:55.861535Z[0m [33m WARN[0m license: no valid JWT found, falling back to FREE plan (2000 nodes / 1 repo / 20 daily calls)
+[2m2026-09-23T16:33:55.865555Z[0m [32m INFO[0m Updated vexp section in existing pre-commit hook
+[2m2026-09-23T16:33:55.866027Z[0m [32m INFO[0m Updated vexp section in existing post-merge hook
+[2m2026-09-23T16:33:55.866488Z[0m [32m INFO[0m Updated vexp section in existing post-checkout hook
+[2m2026-09-23T16:33:55.866596Z[0m [32m INFO[0m Created .vexp/.gitattributes
+[2m2026-09-23T16:33:55.866631Z[0m [32m INFO[0m vexp git hooks installed in /home/keerthinath/Documents/Projects/AI-Enhanced_LibreOffice_Writer
+[2m2026-09-23T16:33:55.868689Z[0m [32m INFO[0m Opening database at /home/keerthinath/Documents/Projects/AI-Enhanced_LibreOffice_Writer/.vexp/index.db
+[2m2026-09-23T16:33:55.897249Z[0m [32m INFO[0m SecurityFilter active — skipping built-in secret paths
+[2m2026-09-23T16:33:55.897677Z[0m [32m INFO[0m Socket server listening on /home/keerthinath/Documents/Projects/AI-Enhanced_LibreOffice_Writer/.vexp/daemon.sock
+[2m2026-09-23T16:33:55.897821Z[0m [32m INFO[0m Manifest found, running incremental sync
+[2m2026-09-23T16:33:55.898848Z[0m [32m INFO[0m Running checkout sync
+[2m2026-09-23T16:33:55.920796Z[0m [32m INFO[0m File watcher: monitorando /home/keerthinath/Documents/Projects/AI-Enhanced_LibreOffice_Writer (93 directories)
+[2m2026-09-23T16:33:55.921096Z[0m [32m INFO[0m LLM compression not configured — rule compressor active
+[2m2026-09-23T16:33:55.921110Z[0m [32m INFO[0m vexp-core daemon started (v3.1.3), watching for changes
