@@ -12,12 +12,11 @@ from src.analysis.formatting_engine import FormattingEngine
 from src.analysis.readability_module import ReadabilityModule
 from src.analysis.sensitive_info_detector import SensitiveInfoDetector
 from src.analysis.writing_assistant import WritingAssistant
-from src.integration.uno_cursor_adapter import UNOCursorAdapter
 from src.models.analysis_result import AnalysisResult
 from src.models.document import Document
 from src.models.report import Report
 from src.models.suggestion import Suggestion, SuggestionStatus
-from src.parser.document_parser import DocumentParser
+from src.parser.docx_parser import DocxParser
 from src.services.quality_service import QualityService
 from src.services.report_service import ReportService
 from src.services.suggestion_service import SuggestionService
@@ -41,7 +40,7 @@ class AIController:
         self.ai_provider: AIProvider = ai_provider or LocalRuleBasedProvider()
 
         # Instantiate parser, services, and modules
-        self.parser = DocumentParser()
+        self.parser = DocxParser()
         self.quality_service = QualityService(self.config)
         self.suggestion_service = SuggestionService()
         self.report_service = ReportService()
@@ -197,10 +196,8 @@ class AIController:
 
     def navigateToIssue(self, suggestion: Suggestion, document: Optional[Document] = None) -> bool:
         """Move cursor in LibreOffice Writer to highlight the issue."""
-        doc = document or self._current_document
-        if not doc or not suggestion.range:
-            return False
-        return UNOCursorAdapter.select_range(doc, suggestion.range)
+        # Navigation not supported in standalone mode yet
+        return False
 
     def generateReport(self, result: Optional[AnalysisResult] = None) -> Report:
         """Generate a complete quality report."""

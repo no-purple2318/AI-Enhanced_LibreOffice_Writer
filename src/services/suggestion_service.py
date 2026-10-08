@@ -2,7 +2,6 @@
 
 from typing import Optional, Tuple
 
-from src.integration.uno_cursor_adapter import UNOCursorAdapter
 from src.models.document import Document
 from src.models.suggestion import Suggestion, SuggestionStatus
 from src.utils.logging import get_logger
@@ -79,15 +78,11 @@ class SuggestionService:
 
         # If it is a text replacement suggestion
         if suggestion.originalText and suggestion.suggestedText is not None:
-            success, apply_reason = UNOCursorAdapter.safe_replace(
-                document=document,
-                doc_range=suggestion.range,
-                expected_original_text=suggestion.originalText,
-                replacement_text=suggestion.suggestedText,
-            )
-            if not success:
-                suggestion.mark_stale(apply_reason)
-                return False, apply_reason
+            p = document.get_paragraph(suggestion.range.paragraph_id)
+            if p:
+                start = suggestion.range.start_offset
+                end = suggestion.range.end_offset
+                p.text = p.text[:start] + suggestion.suggestedText + p.text[end:]
 
         # Mark applied
         suggestion.apply()

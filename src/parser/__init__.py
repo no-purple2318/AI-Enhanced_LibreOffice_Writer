@@ -1,5 +1,5 @@
 """Parser package exports."""
 
-from src.parser.document_parser import DocumentParser
+from src.parser.docx_parser import DocxParser
 
-__all__ = ["DocumentParser"]
+__all__ = ["DocxParser"]
